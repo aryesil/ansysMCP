@@ -8,6 +8,7 @@ roadmap.md
 docs/
 *.md
 !README.md
+!README.tr.md
 
 # --- Tests, fixtures, helper and scratch scripts ---
 tests/
