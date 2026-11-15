@@ -353,4 +353,4 @@ ansysMCP/
 
 ## Lisans
 
-Bu depoda henüz bir lisans dosyası yoktur. Kodu kullanmadan, değiştirmeden veya dağıtmadan önce depo sahibine danışın. ANSYS, Mechanical, Fluent ve ilgili adlar ANSYS, Inc.'in tescilli markalarıdır; bu proje ANSYS ile bağlantılı değildir ve ANSYS tarafından onaylanmamıştır.
+Bu proje [MIT Lisansı](LICENSE) ile yayımlanmıştır. ANSYS, Mechanical, Fluent ve ilgili adlar ANSYS, Inc.'in tescilli markalarıdır; bu proje ANSYS ile bağlantılı değildir ve ANSYS tarafından onaylanmamıştır.

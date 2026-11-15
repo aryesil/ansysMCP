@@ -7,6 +7,7 @@ name = "ansys-ai-mcp"
 version = "2.0.0"
 description = "Deterministic AI Automation Server for ANSYS Workbench, PyMechanical and PyFluent via MCP"
 readme = "README.md"
+license = { text = "MIT" }
 requires-python = ">=3.10"
 # Kept in step with requirements.txt: the geometry, solver and plotting
 # packages below are imported at run time, not optional extras.
