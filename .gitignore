@@ -1,0 +1,74 @@
+# Only the code needed to run the server is tracked:
+#   server.py, src/, pyproject.toml, requirements.txt, README.md
+# Everything below stays local.
+
+# --- Documentation, planning and hand-over notes ---
+HANDOVER.md
+roadmap.md
+docs/
+*.md
+!README.md
+
+# --- Tests, fixtures, helper and scratch scripts ---
+tests/
+scripts/
+scratch/
+.pytest_cache/
+
+# --- Job output, CAD inputs and solver results ---
+runs/
+*.step
+*.stp
+*.iges
+*.igs
+*.sldprt
+*.sldasm
+*.stl
+*.rst
+*.rth
+*.cas
+*.cas.h5
+*.dat.h5
+*.msh
+*.msh.h5
+*.mechdb
+*.wbpj
+*.wbpz
+*_files/
+*.db
+*.sqlite
+*.sqlite3
+*.glb
+*.vtu
+*.png
+*.log
+*.trn
+
+# --- Secrets and local configuration ---
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.token
+secrets.*
+.claude/
+.mcp.json
+CLAUDE.md
+
+# --- Python environment and build artefacts ---
+venv/
+.venv/
+env/
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.eggs/
+
+# --- Editors and OS ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

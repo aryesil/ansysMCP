@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ansys-ai-mcp"
+version = "2.0.0"
+description = "Deterministic AI Automation Server for ANSYS Workbench, PyMechanical and PyFluent via MCP"
+readme = "README.md"
+requires-python = ">=3.10"
+# Kept in step with requirements.txt: the geometry, solver and plotting
+# packages below are imported at run time, not optional extras.
+dependencies = [
+    "mcp>=1.0.0",
+    "fastmcp>=0.1.0",
+    "pydantic>=2.0.0",
+    "ansys-mechanical-core>=0.10.0",
+    "ansys-fluent-core>=0.20.0",
+    "ansys-dpf-core>=0.10.0",
+    "ansys-geometry-core>=0.4.0",
+    "pyvista>=0.43.0",
+    "trimesh>=4.0.0",
+    "cascadio>=0.0.10",
+    "h5py>=3.10.0",
+    "networkx>=3.0",
+    "scipy>=1.11.0",
+    "matplotlib>=3.8.0",
+    "numpy>=1.24.0"
+]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
+markers = [
+    "ansys: requires a real ANSYS 2025 installation and a solver license",
+]
